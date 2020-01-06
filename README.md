@@ -53,7 +53,7 @@ CREATE TABLE [dbo].[FareTypes](
 	[RoundDirection] [smallint] NULL,
 	[Accuracy] [real] NULL,
 	[InActive] [smallint] NULL,
-	[Timestamp] [datetime2] DEFAULT 50SYSUTCDATETIME ( )
+	[Timestamp] [datetime2] DEFAULT SYSUTCDATETIME ( )
  CONSTRAINT [pkFareTypes] PRIMARY KEY CLUSTERED 
 (
 	[FareTypeId] ASC
