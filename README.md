@@ -1,0 +1,1 @@
+# sqlserver-cosmosdb-sync-azuretask
